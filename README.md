@@ -63,5 +63,5 @@ The App for the Smart Home is designed using MIT App Inventor with features such
 # **Energy Efficiency using LDR Sensor and Temperature Sensor** <br />
 Arduino has been programmed to automate the speed of the fan and brightness of the lights based on the temperature of the room and ambient light of the room respectively which makes the solution energy efficient. The LED lamp and the Fan are controlled using a driver board each with appropriate connections to the PCB used for the Arduino Mega and the Arduino Micro.
 
-# **Alert and Alaram System** <br />
+# **Alert and Alarm System** <br />
 The alert system is implemented to ensure that the elderly do not get injured by objects of danger nearby, like a fireplace, stove, edge of balcony etc. The ultrasonic distance module(HC-SR04) continuously monitors the distance using echolocation. A high pulse of width 10 microsecond is transmitted via the trig pin, then the module will emit 8 square wave pulses of 40kHz and detect if an echo signal has been received. When received, echo pin outputs a square pulse whose width is equal to the time taken by the emitted pulse to transmit and come back. The distance is then calculated with the equation: 𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒=𝑡×340𝑚/s×0.5. 
